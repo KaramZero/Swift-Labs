@@ -1,0 +1,6 @@
+framework module Pods_lab7_q2 {
+  umbrella header "Pods-lab7_q2-umbrella.h"
+
+  export *
+  module * { export * }
+}
