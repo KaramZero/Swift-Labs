@@ -25,7 +25,7 @@ class ViewController: UITableViewController {
         monitor.pathUpdateHandler = { pathUpdateHandler in
             if pathUpdateHandler.status == .satisfied {
                 
-                print("Internet connection is on.")
+                print("Internet connection is working.")
                 
                 let url = URL(string: "https://imdb-api.com/en/API/BoxOffice/k_hs8g0y00")
                 guard let newURL = url else{
